@@ -1,0 +1,26 @@
+.header-container {
+    text-align: right;
+  }
+  
+  .header-image-container {
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    
+  }
+  
+  @media (min-width: 768px) {
+    .header-image-container {
+      height: 50vh;
+    }
+  }
+  
+  .header-image {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    object-fit: cover;
+  }
+  
